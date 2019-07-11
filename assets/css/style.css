@@ -1,0 +1,29 @@
+.input{
+    margin-left:90px;
+    margin-right:90px;
+    }
+
+    .jumbotron{
+        width: 86%;
+        margin-left: 95px;
+
+    }
+.form-group {
+
+color: white;
+}
+    
+    
+    body{
+        background-image: url(../images/train.jpg);
+    }
+    
+    .display-4{
+        color:white;
+        font-weight: bolder;
+    }
+    
+    .lead{
+        color:white;
+        font-weight: bolder;
+    }
