@@ -3,13 +3,14 @@ var config = {
   authDomain: "train-a4624.firebaseapp.com",
   databaseURL: "https://train-a4624.firebaseio.com",
   projectId: "train-a4624",
-  storageBucket: "train-a4624.appspot.com",
+  storageBucket: "",
   messagingSenderId: "370596916398",
   appId: "1:370596916398:web:eedc3129129dd752"
   };
 
-  let database = firebase.database();
+  
    firebase.initializeApp(config);
+   let database = firebase.database();
   
   //Fill the Firebase with initial data when button is clicked
   //The button is for adding trains
